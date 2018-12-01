@@ -1,0 +1,55 @@
+WBS for Absolute Path
+
+Problem Understanding:
+
+    1) Original requirements: Print the absolute path of the .class file of the current class.
+
+    2) Inferred requirements: Method to get the absolute path of the .class file
+
+    3) Pre-condition: Necessary classes imported from its package
+
+    4) Clarification: Does the .class file exists or not
+
+    5)Acceptance Criteria: Printing the absolute path of the .class file of the current class using a method to get the absolute path of the file with neccesary classes imported form its package.
+
+
+Jobs to be done:
+
+    1) Events: - Getting the absolute path
+               - Displaying the absolute path
+
+
+   2) Event Scope:
+        a) Getting the absolute path
+                - from .class file created
+                - triggered by getting the absolute path of the .class file
+                - to having the absolute path of .class file
+
+        b) Displaying the absolute path
+                - from having absolute path
+                - triggered by printing statement
+                - to absolute path of the file displayed in the output
+
+
+Design:
+
+    1) Entities:
+        a) Getting the absolute path
+                 - .class file
+
+        b) Displaying the absolute path
+                 - Output console
+
+    2) Pseudo code:
+
+         import java.io.File
+
+         main class {
+            main method() {
+
+                creating object of class File;
+                String[] variable = getAbsolutePath();
+                print (variable);
+
+            }
+         }

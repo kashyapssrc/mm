@@ -1,0 +1,44 @@
+WBS for compare the enum values using equal method and == operator
+
+User's Perspective
+Problem Understanding:
+
+    1) Original Requirements: Compare the enum values using equal method and == operator
+
+    2) Pre-conditions: Necessary classes imported from its respective package
+
+    3) Acceptance Criteria: Compare the enum values using equal method and = operator
+
+
+System's perpective
+    Events:
+        1) start state: enum already defined with fixed values
+           User executing the program 
+           end state: display message for equal enum values
+           Jobs to be done: - store the enum values in variables
+                            - compare the variables using equals() method and == operator
+
+
+Developer's perspective:
+    Entities:
+        1) User executing the program:
+                - enum
+                - API
+                - Console output
+
+    Pseudo code:
+        import API
+        class EnumEquality {
+
+            declare enum {
+                define enum values
+            }
+
+            public static void main(String[] args) {
+
+                declare object variables of enum with their enum values
+                compare the enum values using equals() method and also == operator
+                display messages for showing equality
+
+            }
+        }

@@ -1,0 +1,19 @@
+Electronics,,,,,,,,,,,
+Item ID,Product,Model Name,Manufacturer,Type,Colour,Storage Capacity(GB),Quantity,Price per item(Rs.),Product ID,Model ID,Manufacturer ID
+1,Mobile,Galaxy S9,Samsung,Smartphone,Black,64,1,53850,1,SM-G960/DS,1
+2,Mobile,Galaxy Note 8,Samsung,Phablet,Blue,64,1,55900,1,SM-N950F,1
+3,Gaming Console,PlayStation 4,Sony,Slim console,Black,1000,1,38599,2,B079QBC25W,2
+4,Laptop,Legion Y520,Lenovo,Gaming laptop,Black,1000,2,99899,3,80WK00R0IN,3
+5,Mobile,Oneplus 6,OnePlus,Smartphone,Silver,64,3,34999,1,A6000,4
+6,Gaming Console,Xbox One X,Microsoft,Slim console,White,1000,1,40990,2,CYV-00022,5
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,Manufacturer,,,Model,,,,,,,
+,Manufacturer,Manufacturer ID,,Model Name,Model ID,,,Product,,,
+,Samsung,1,,Galaxy S9,SM-G960/DS,,,Product,Product ID,,
+,Sony,2,,Galaxy Note 8,SM-N950F,,,Mobile,1,,
+,Lenovo,3,,PlayStation 4,B079QBC25W,,,Gaming Console,2,,
+,OnePlus,4,,Legion Y520,80WK00R0IN,,,Laptop,3,,
+,Microsoft,5,,Oneplus 6,A6000,,,,,,
+,,,,Xbox One X,CYV-00022,,,,,,

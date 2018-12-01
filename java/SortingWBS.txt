@@ -1,0 +1,65 @@
+WBS For Sort and print following String[] alphabetically ignoring case. Also convert and print even indexed Strings into uppercase { "Madurai", "Thanjavur", "TRICHY", "Karur", "Erode", "trichy", "Salem" }
+
+Problem Understanding:
+
+    1) Original requirements: Sort and print following String[] alphabetically ignoring case. Also convert and print even indexed Strings into uppercase { "Madurai", "Thanjavur", "TRICHY", "Karur", "Erode", "trichy", "Salem" }
+
+    2) Infrerred requirements: A method or logic to sort
+                               A method or logic to convert strings in uppercase
+
+    3) Pre-condition: Necessary classes imported from its package
+
+    4) Acceptance Criteria: Sort and print a given string array and convert the even indexed strings into uppercase by a method or logic to sort and convert into uppercase
+
+
+Jobs to be done:
+
+    1) Events:
+               - Sort the string array
+               - Converting the even indexed elements in the array to uppercase
+               - Diplaying the resultant array
+
+    2) Event scope:
+
+         a) Sort the string array
+                - from unsorted string array
+                - triggered by performing sorting
+                - to sorted string array
+
+         b) Converting the even indexed elements in the array to uppercase
+                - from sorted string array
+                - triggered by logic to find even indexes
+                - to even indexed elements found and coverted to uppercase
+
+         c) Diplaying the resultant array
+                - from even indexed elements found and converted
+                - triggered by printing the resultant string array
+                - to resultant string array displayed in output
+
+
+Design:
+
+    1) Entites:
+         a) Sort the string array
+                - String array
+
+         b) Converting the even indexed elements in the array to uppercase
+                - Elements of array
+
+         c) Diplaying the resultant array
+                - Resultant array
+                - Output console
+
+    2) Pseudo code:
+
+        import java.util.Arrays
+
+        main class{
+            string array = { "Madurai", "Thanjavur", "TRICHY", "Karur", "Erode", "trichy", "Salem" }
+
+            main method() {
+                Arrays.sort
+                converting even indexed elements
+                print(resultant array)
+            }
+        }
